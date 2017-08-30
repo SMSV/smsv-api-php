@@ -35,7 +35,7 @@ elseif ($_SERVER['REQUEST_METHOD']=='POST') {
     <form method="POST">
     <input type="hidden" name="action" value="validateOtp"/>
     <input type="hidden" name="sk" value="'.$sessionKey.'"/>
-    +<input size="6" name="c" placeholder="Code from SMS"/><br/>
+    <input size="6" name="c" placeholder="Code from SMS"/><br/>
     <input type="submit" value="Validate"/>
     </form>
     ';
