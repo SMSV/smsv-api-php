@@ -1,0 +1,21 @@
+{
+  "name": "SMSV/smsv-api-php",
+  "description": "SMSV.ME PHP API",
+  "license": "GPL v3",
+  "require": {
+    "php": ">=5.6.0",
+    "ext-json": "*"
+  },
+  "authors": [
+    {
+      "name": "smsv.me development team",
+      "homepage": "https://smsv.me/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "SMSV": "src/"
+    }
+  }
+}
