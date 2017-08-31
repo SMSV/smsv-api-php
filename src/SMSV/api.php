@@ -49,7 +49,7 @@ class api {
 
         $code = (string)$code;
 
-        $response = json_decode(file_get_contents("{$this->apiUrl}/otp/validate/?ak={$this->accessKey}&s=$sessionKey&c=$code"));
+        $response = json_decode(file_get_contents("{$this->apiUrl}/otp/validate/?ak={$this->accessKey}&sk=$sessionKey&c=$code"));
 
         if (!$response->success) {
             throw new \Exception("One-time password is invalid. Errors are: ".implode(',',$response->errors));
