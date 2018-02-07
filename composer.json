@@ -1,7 +1,7 @@
 {
   "name": "smsv/smsv-api-php",
   "description": "SMSV.ME PHP API",
-  "license": "GPL v3",
+  "license": "GPL-3.0-or-later",
   "require": {
     "php": ">=5.6.0",
     "ext-json": "*"

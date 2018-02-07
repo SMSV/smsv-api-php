@@ -17,7 +17,7 @@ Developed and maintained by [SMSV.ME](https://smsv.me/).
 Install with Composer:
 
 ```
-composer require SMSV/smsv-api-php
+composer require smsv/smsv-api-php
 ```
 
 Or include the library manually:
