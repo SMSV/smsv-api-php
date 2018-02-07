@@ -1,5 +1,5 @@
 {
-  "name": "SMSV/smsv-api-php",
+  "name": "smsv/smsv-api-php",
   "description": "SMSV.ME PHP API",
   "license": "GPL v3",
   "require": {
